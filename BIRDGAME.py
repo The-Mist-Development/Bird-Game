@@ -16,7 +16,7 @@ bg = BIRBGAME()
 verify_events()
 
 
-bg.humans_relations, bg.squirrels_relation, bg.pigeon_loyalty, bg.cash = 100,100,100,-10
+bg.humans_relations, bg.squirrels_relation, bg.pigeon_loyalty, bg.cash = 50,50,50,50
 while True:
     do_event("standardEvent",bg)
     do_event("childBitBySquirrelEvent",bg)
