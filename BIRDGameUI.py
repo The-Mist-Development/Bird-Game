@@ -4,14 +4,15 @@ class BIRBGAME(TR.Terminal):
 
     def __init__(self):
         TR.Terminal.__init__(self)
-        humans_relations, squirrels_relation, pigeon_loyalty, cash = 0,0,0,0
+        self.humans_relations, self.squirrels_relation, self.pigeon_loyalty, self.cash = 0,0,0,0
+        self.flags = set()
 
     def letter(self,sender_addressline1,sender_addressline2,contents,signoff,sig):
         self.clear()
         
         letter_box = self.text_box(3,25,10,120)
 
-        letter_box.type(1, sender_addressline2,speed = 0.07)
+        letter_box.type(1, sender_addressline2,speed = 0.04)
 
         full_letter,indices = ([
                    " "*30+ sender_addressline1,

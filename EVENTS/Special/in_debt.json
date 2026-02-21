@@ -1,0 +1,64 @@
+{
+  "prerequisite flags": [],
+  "opening": {
+    "contents": [
+      "Hello mr PIG-eon.",
+      "",
+      "You have debts, i assume you wont mind if we collect some interest."
+    ],
+
+    "signoff": {
+      "regards": "yours dearly,",
+      "signature": "Big gun, Loan piranas Ltd."
+    },
+
+    "option tags": {
+      "y": "accept (will pillage your people)",
+      "n": "fight (hurting them will anger the humans)"
+    }
+  },
+
+
+
+
+  "yes_route": {
+    "contents": [
+      "",
+      "",
+      "The Loan Sharks pillage your subjects, the pigeons are upset"
+    ],
+
+
+
+    "results": {
+      "humans_relations": 0,
+      "squirrels_relation": 0,
+      "pigeon_loyalty": -20,
+      "cash": 0,
+      "new_flags": []
+    }
+
+  },
+
+
+
+
+
+  "no_route": {
+    "contents": [
+      "",
+      "",
+      "You kill some of the loan sharks, the humans are very angry."
+    ],
+
+
+    "results": {
+      "humans_relations": -30,
+      "squirrels_relation": 0,
+      "pigeon_loyalty": 10,
+      "cash": 0,
+      "new_flags": []
+    }
+
+  }
+}

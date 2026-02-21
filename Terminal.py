@@ -22,6 +22,7 @@ class Terminal():
         self.typing = True
 
         t = Thread(target=self.__Keeper)
+        t.daemon = True
         t.start()
 
     def __Keeper(self):

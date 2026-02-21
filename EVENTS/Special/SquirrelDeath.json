@@ -1,0 +1,64 @@
+{
+	"prerequisite flags": [],
+	"opening": {
+		"contents": [
+			"The squirrels reach a blood thursty rage and destroy the kelvingrove...",
+			"",
+			"",
+			"The Game is OVER"
+		],
+
+		"signoff": {
+			"regards": "Much Death,",
+			"signature": "Grim Reaper"
+		},
+
+		"option tags": {
+			"y": "Restart",
+			"n": "Exit"
+		}
+	},
+
+
+
+
+	"yes_route": {
+		"contents": [
+			"",
+			"Lord Kelvin: Lets go back to the Start... "
+		],
+
+
+
+		"results": {
+			"humans_relations": -1000,
+			"squirrels_relation": -1000,
+			"pigeon_loyalty": -1000,
+			"cash": -1000,
+			"new_flags": [ "RESTART" ]
+		}
+
+	},
+
+
+
+
+
+	"no_route": {
+		"contents": [
+			"",
+			"",
+			"Lord Kelvin: I expected more..."
+		],
+
+
+		"results": {
+			"humans_relations": 0,
+			"squirrels_relation": 0,
+			"pigeon_loyalty": 0,
+			"cash": 0,
+			"new_flags": [ "EXIT" ]
+		}
+
+	}
+}

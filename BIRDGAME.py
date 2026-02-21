@@ -5,31 +5,29 @@ from GameUtils import *
 
 bg = BIRBGAME() 
 
-# bg.letter("To: Wandering PIGEON (YOU)","",["Hello lord.","","The Kelvingrove is in disarray, please come back; you are our KING!!"], "yours dearly,", "PEASANT PIGEON")
+# bg.letter("To: Noble PIGEON (YOU)","",["Hello my friend,","","The Kelvingrove is in disarray, you are the only pigeon i know who can restore order. Please return and take your rightful place as King of the pigeons"], "yours most dearly,", "Lord Kelvin")
 
 # bg.WaitInput("press Enter to continue")
 
-# bg.letter("my people need me...","",["","",], "Internal Dialog", "")
+# bg.letter("I will not disappoint...","",["","",], "Internal Dialog", "")
 
 # bg.WaitInput("press Enter to BEGIN GAME")
 
-verify_events()
+verify_events(r"EVENTS/Random")
+verify_events(r"EVENTS/Special")
 
+bg.humans_relations, bg.squirrels_relation, bg.pigeon_loyalty, bg.cash = 100,100,100,100
+bg.flags = set()
 
-bg.humans_relations, bg.squirrels_relation, bg.pigeon_loyalty, bg.cash = 50,50,50,50
 while True:
-    do_event("standardEvent",bg)
-    do_event("childBitBySquirrelEvent",bg)
+    EndConditions(bg)
+    if "RESTART" in bg.flags:
+        bg.humans_relations, bg.squirrels_relation, bg.pigeon_loyalty, bg.cash = 100,100,100,100
+        bg.flags = set("resurrected")
+    elif "EXIT" in bg.flags:
+        exit()
 
-    # if cash < 0:
-    #     bg.letter("\033[38;5;243m"
-    #               "humans: "+str(humans_relations) +
-    #               "   squirrels: " +str(squirrels_relation) +
-    #               "   pigeons:" +str(pigeon_loyalty)+
-    #               "   cash: "+str(cash) + "\033[0m",
-    #               to_you,
-    #               ["Hello mr PIG-eon.","","You have debts, i assume you wont mind if we collect some interest."], 
-    #               "yours dearly,", 
-    #               "Big gun, Loan piranas Ltd.")
-
-    #     bg.WaitInput("press Enter to continue (your subjects property was pillaged)")
+    if bg.cash < 0:
+           do_event("EVENTS/Special/in_debt",bg) 
+    else:
+        do_random_event(bg) #do_event("EVENTS/Random/<EVENT YOU WANT TO CALL>",bg) # to test events :)
