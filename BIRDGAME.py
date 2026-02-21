@@ -16,13 +16,13 @@ bg = BIRBGAME()
 verify_events(r"EVENTS/Random")
 verify_events(r"EVENTS/Special")
 
-bg.humans_relations, bg.squirrels_relation, bg.pigeon_loyalty, bg.cash = 100,100,100,100
+bg.humans_relations, bg.squirrels_relation, bg.pigeon_loyalty, bg.cash = 50,50,50,50
 bg.flags = set()
 
 while True:
     EndConditions(bg)
     if "RESTART" in bg.flags:
-        bg.humans_relations, bg.squirrels_relation, bg.pigeon_loyalty, bg.cash = 100,100,100,100
+        bg.humans_relations, bg.squirrels_relation, bg.pigeon_loyalty, bg.cash = 50,50,50,50
         bg.flags = set("resurrected")
     elif "EXIT" in bg.flags:
         exit()

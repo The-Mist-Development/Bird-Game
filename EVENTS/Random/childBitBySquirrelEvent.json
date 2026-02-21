@@ -1,4 +1,5 @@
 {
+  "prerequisite flags": [],
   "opening": {
     "contents": [
       "King Pigeon",
@@ -28,9 +29,10 @@
     ],
     "results": {
       "humans_relations": 5,
-      "squirrels_relation":  -15,
-      "pigeon_loyalty":  0,
-      "cash":  0
+      "squirrels_relation": -15,
+      "pigeon_loyalty": 0,
+      "cash": 0,
+      "new_flags": []
     }
 
   },
@@ -44,9 +46,10 @@
     ],
     "results": {
       "humans_relations": -10,
-      "squirrels_relation":  10,
+      "squirrels_relation": 10,
       "pigeon_loyalty": 0,
-      "cash":  0
+      "cash": 0,
+      "new_flags": []
     }
 
   }
