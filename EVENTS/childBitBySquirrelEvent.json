@@ -1,0 +1,53 @@
+{
+  "opening": {
+    "contents": [
+      "King Pigeon",
+      "",
+      "I have some dreadful news,",
+      "it would seem a vicious squirrel has bitten my child.",
+      "Do I have your royal permission to kill the offending squirrel?"
+    ],
+
+    "signoff": {
+      "regards": "Yours Dearly,",
+      "signature": "Steve Coogan, Human."
+    },
+
+    "option tags": {
+      "y": "Grant Permission",
+      "n": "Deny Permission"
+    }
+  },
+
+
+  "yes_route": {
+    "contents": [
+      "",
+      "",
+      "Steve kills the squirrel, the squirrels are outraged."
+    ],
+    "results": {
+      "humans_relations": 5,
+      "squirrels_relation":  -15,
+      "pigeon_loyalty":  0,
+      "cash":  0
+    }
+
+  },
+
+  "no_route": {
+    "contents": [
+      "",
+      "",
+      "The humans are scared that more squirrels will attack their children",
+      "as there is clearly no recourse for their actions."
+    ],
+    "results": {
+      "humans_relations": -10,
+      "squirrels_relation":  10,
+      "pigeon_loyalty": 0,
+      "cash":  0
+    }
+
+  }
+}

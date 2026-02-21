@@ -16,14 +16,15 @@ bg = BIRBGAME()
 verify_events()
 
 
-bg.humans_relations, bg.squirels_relation, bg.pigeon_loyalty, bg.cash = 100,100,100,-10
+bg.humans_relations, bg.squirrels_relation, bg.pigeon_loyalty, bg.cash = 100,100,100,-10
 while True:
     do_event("standardEvent",bg)
+    do_event("childBitBySquirrelEvent",bg)
 
     # if cash < 0:
     #     bg.letter("\033[38;5;243m"
     #               "humans: "+str(humans_relations) +
-    #               "   squirels: " +str(squirels_relation) +
+    #               "   squirrels: " +str(squirrels_relation) +
     #               "   pigeons:" +str(pigeon_loyalty)+
     #               "   cash: "+str(cash) + "\033[0m",
     #               to_you,

@@ -4,7 +4,7 @@ class BIRBGAME(TR.Terminal):
 
     def __init__(self):
         TR.Terminal.__init__(self)
-        humans_relations, squirels_relation, pigeon_loyalty, cash = 0,0,0,0
+        humans_relations, squirrels_relation, pigeon_loyalty, cash = 0,0,0,0
 
     def letter(self,sender_addressline1,sender_addressline2,contents,signoff,sig):
         self.clear()

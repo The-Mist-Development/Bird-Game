@@ -26,7 +26,7 @@ def do_event(eventName,bg):
     
     bg.letter("\033[38;5;243m"
                   "humans: "+str(bg.humans_relations) +
-                  "   squirels: " +str(bg.squirels_relation) +
+                  "   squirrels: " +str(bg.squirrels_relation) +
                   "   pigeons:" +str(bg.pigeon_loyalty)+
                   "   cash: "+str(bg.cash) + "\033[0m",
                   to_you,
@@ -43,18 +43,18 @@ def do_event(eventName,bg):
             route = "yes_route"
             break
         elif input_ =="n" or input_ == "N":
-            route = "yes_route"
+            route = "no_route"
             break
 
     
     bg.humans_relations += event[route]["results"]["humans_relations"]
-    bg.squirels_relation += event[route]["results"]["squirels_relation"]
+    bg.squirrels_relation += event[route]["results"]["squirrels_relation"]
     bg.pigeon_loyalty += event[route]["results"]["pigeon_loyalty"]
     bg.cash  += event[route]["results"]["cash"]
 
     bg.letter("\033[38;5;243m"
                   "humans: "+str(bg.humans_relations) +
-                  "   squirels: " +str(bg.squirels_relation) +
+                  "   squirrels: " +str(bg.squirrels_relation) +
                   "   pigeons:" +str(bg.pigeon_loyalty)+
                   "   cash: "+str(bg.cash) + "\033[0m",
                   "",
@@ -67,16 +67,16 @@ def do_event(eventName,bg):
 def HumanEnding():
     pass
 
-def squirelEnding():
+def squirrelEnding():
     pass
 
 def pigeonEnding():
     pass
 
-def EndConditions(humans_relations, squirels_relation, pigeon_loyalty, cash):
+def EndConditions(humans_relations, squirrels_relation, pigeon_loyalty, cash):
     if humans_relations < 0:
         HumanEnding()
-    if squirels_relation < 0:
-        squirelEnding()
+    if squirrels_relation < 0:
+        squirrelEnding()
     if pigeon_loyalty < 0:
         pigeonEnding()

@@ -26,7 +26,7 @@
     ],
     "results": {
       "humans_relations": 0,
-      "squirels_relation":  0,
+      "squirrels_relation":  0,
       "pigeon_loyalty":  0,
       "cash":  20
     }
@@ -41,7 +41,7 @@
     ],
     "results": {
       "humans_relations": -10,
-      "squirels_relation":  0,
+      "squirrels_relation":  0,
       "pigeon_loyalty": 0,
       "cash":  40
     }
