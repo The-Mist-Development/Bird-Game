@@ -4,8 +4,7 @@
     "contents": [
       "My Liege,",
       "",
-      "A plague of locusts has swept across the lands and we've heard that's",
-      "meant to be bad, help us!"
+      "A plague of locusts has swept across the kelvingrove, help us!"
     ],
 
     "signoff": {
@@ -15,7 +14,7 @@
 
     "option tags": {
       "y": "Enlist your fellow pigeons to eat the locusts",
-      "n": "Use the opportunity to ransack the humans' brick-nests"
+      "n": "Use the opportunity to rob the humans"
     }
   },
 
@@ -49,15 +48,15 @@
     "contents": [
       "",
       "",
-      "You pillage the human settlements. The humans resent you"
+      "You use the distraction to pillage the human settlement of Partick. The humans resent you"
     ],
 
 
     "results": {
-      "humans_relations": -10,
+      "humans_relations": -20,
       "squirrels_relation":  0,
       "pigeon_loyalty": 0,
-      "cash": 15,
+      "cash": 20,
       "new_flags": []
     }
 

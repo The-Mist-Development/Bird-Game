@@ -1,0 +1,65 @@
+{
+  "prerequisite flags": [ "ART GALLERY" ],
+  "opening": {
+    "contents": [
+      "Sire,",
+      "",
+      "Human visitors to the art gallery are complaining of squirrel attacks,",
+      "They will pay us to deal with this problem"
+    ],
+
+    "signoff": {
+      "regards": "respectfully,",
+      "signature": "Hooters Grey, Pigeon Advisor."
+    },
+
+    "option tags": {
+      "y": "help the humans",
+      "n": "ignore the humans"
+    }
+  },
+
+
+
+
+  "yes_route": {
+    "contents": [
+      "",
+      "",
+      "You send your strongest chonkiest pigeons to guard the art gallery."
+    ],
+
+
+
+    "results": {
+      "humans_relations": 10,
+      "squirrels_relation": 0,
+      "pigeon_loyalty": 0,
+      "cash": 10,
+      "new_flags": ["PIGEONS GUARD ART GALLERY"]
+    }
+
+  },
+
+
+
+
+
+  "no_route": {
+    "contents": [
+      "",
+      "",
+      "The humans are disappointed."
+    ],
+
+
+    "results": {
+      "humans_relations": -10,
+      "squirrels_relation":  0,
+      "pigeon_loyalty": 0,
+      "cash": 0,
+      "new_flags": []
+    }
+
+  }
+}

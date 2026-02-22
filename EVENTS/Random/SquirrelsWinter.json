@@ -4,17 +4,17 @@
     "contents": [
       "Hello...",
       "",
-      "This is an Example event :)"
+      "We want more food for the winter."
     ],
 
     "signoff": {
       "regards": "yours dearly,",
-      "signature": "Mr john Doe, Human"
+      "signature": "Squirrel Agricultural Group"
     },
 
     "option tags": {
-      "y": "accept (will give you money)",
-      "n": "reject (will give you even more money but greed...)"
+      "y": "accept (Pay for Squirrels food)",
+      "n": "refuse"
     }
   },
 
@@ -25,16 +25,16 @@
     "contents": [
       "",
       "",
-      "You chose YES (Something happened)"
+      "Thank You!!!!"
     ],
 
 
 
     "results": {
       "humans_relations": 0,
-      "squirrels_relation": 0,
+      "squirrels_relation": 20,
       "pigeon_loyalty": 0,
-      "cash": 20,
+      "cash": -20,
       "new_flags": [],
       "remove_flags": []
     }
@@ -49,15 +49,15 @@
     "contents": [
       "",
       "",
-      "You chose NO (Something happened)"
+      "You don't give them more food, The squirrels don't mind too much"
     ],
 
 
     "results": {
-      "humans_relations": -10,
+      "humans_relations":0,
       "squirrels_relation": 0,
       "pigeon_loyalty": 0,
-      "cash": 40,
+      "cash": 0,
       "new_flags": [],
       "remove_flags": [  ]
     }

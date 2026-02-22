@@ -1,0 +1,66 @@
+{
+  "prerequisite flags": [ "HEAVY TAX" ],
+  "opening": {
+    "contents": [
+      "Sire",
+      "",
+      "Your Pigeons are suffering from too much taxation, maybe we should lower taxes."
+    ],
+
+    "signoff": {
+      "regards": "Yours Ad Infinitum,",
+      "signature": "Hooters Grey, Pigeon Advisor."
+    },
+
+    "option tags": {
+      "y": "Lower Taxation",
+      "n": "not."
+    }
+  },
+
+
+
+
+  "yes_route": {
+    "contents": [
+      "",
+      "",
+      "Your Pigeons praise you as a great ruler!"
+    ],
+
+
+
+    "results": {
+      "humans_relations": 0,
+      "squirrels_relation": 0,
+      "pigeon_loyalty": 20,
+      "cash": -10,
+      "new_flags": [],
+      "remove_flags": [ "HEAVY TAX" ]
+    }
+
+  },
+
+
+
+
+
+  "no_route": {
+    "contents": [
+      "",
+      "The taxes remain, the Pigeons continue to grumble.",
+      ""
+    ],
+
+
+    "results": {
+      "humans_relations": 0,
+      "squirrels_relation": 0,
+      "pigeon_loyalty": -10,
+      "cash": 10,
+      "new_flags": [ ],
+      "remove_flags": []
+    }
+
+  }
+}

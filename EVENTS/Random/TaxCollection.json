@@ -2,19 +2,19 @@
   "prerequisite flags": [],
   "opening": {
     "contents": [
-      "Hello...",
+      "Sire",
       "",
-      "This is an Example event :)"
+      "There is an opportunity to make a new tax!"
     ],
 
     "signoff": {
-      "regards": "yours dearly,",
-      "signature": "Mr john Doe, Human"
+      "regards": "Yours Ad Infinitum,",
+      "signature": "Hooters Grey, Pigeon Advisor."
     },
 
     "option tags": {
-      "y": "accept (will give you money)",
-      "n": "reject (will give you even more money but greed...)"
+      "y": "accept (lets get rich)",
+      "n": "reject (The people are already taxed enough)"
     }
   },
 
@@ -25,7 +25,7 @@
     "contents": [
       "",
       "",
-      "You chose YES (Something happened)"
+      "You Tax sourdough breadcrumbs with an extra 78% levy."
     ],
 
 
@@ -33,9 +33,9 @@
     "results": {
       "humans_relations": 0,
       "squirrels_relation": 0,
-      "pigeon_loyalty": 0,
+      "pigeon_loyalty": -10,
       "cash": 20,
-      "new_flags": [],
+      "new_flags": ["HEAVY TAX"],
       "remove_flags": []
     }
 
@@ -48,18 +48,18 @@
   "no_route": {
     "contents": [
       "",
-      "",
-      "You chose NO (Something happened)"
+      "No new Tax is introduced.",
+      ""
     ],
 
 
     "results": {
-      "humans_relations": -10,
+      "humans_relations": 0,
       "squirrels_relation": 0,
       "pigeon_loyalty": 0,
       "cash": 40,
       "new_flags": [],
-      "remove_flags": [  ]
+      "remove_flags": []
     }
 
   }

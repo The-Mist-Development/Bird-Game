@@ -8,6 +8,7 @@ def verify_events(dirc):
     for e in os.scandir(dirc):
         if e.is_file():
             with open(e.path) as f:
+                print(e.path)
                 event = json.loads(f.read())#
                 for line in event["opening"]["contents"]:
                     if len(line) > 110:
@@ -19,6 +20,7 @@ def verify_events(dirc):
                     if len(line) > 110:
                         raise RuntimeError("Line in "+e.path+" Event content section is longer than 110 (it is "+str(len(line))+")")
 
+ 
 to_you = "To: King PIGEON (YOU)"
 def do_event(eventName,bg):
     with open(eventName+".json") as f:

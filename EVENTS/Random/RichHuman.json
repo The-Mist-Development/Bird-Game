@@ -1,0 +1,67 @@
+{
+  "prerequisite flags": [],
+  "opening": {
+    "contents": [
+      "hi good sir, ",
+      "",
+      "your pigeons are ugly and ruining the view from park circus. We at the PC neighborhood association",
+      "would like you to remove your pleebs from this side of the park."
+    ],
+
+    "signoff": {
+      "regards": "yours dearly,",
+      "signature": "Mr RC Sugar, Human"
+    },
+
+    "option tags": {
+      "y": "accept (Give up territory)",
+      "n": "reject (You will Anger the Park Circus Residents Association)"
+    }
+  },
+
+
+
+
+  "yes_route": {
+    "contents": [
+      "",
+      "",
+      "Finally, no more ugly pigeons frightening us."
+    ],
+
+
+
+    "results": {
+      "humans_relations": 10,
+      "squirrels_relation": 0,
+      "pigeon_loyalty": -30,
+      "cash": 0,
+      "new_flags": [],
+      "remove_flags": []
+    }
+
+  },
+
+
+
+
+
+  "no_route": {
+    "contents": [
+      "",
+      "",
+      "The Park Circus Pigeons are happy you stood up for them."
+    ],
+
+
+    "results": {
+      "humans_relations": -10,
+      "squirrels_relation": 0,
+      "pigeon_loyalty": 10,
+      "cash": 0,
+      "new_flags": [],
+      "remove_flags": [  ]
+    }
+
+  }
+}

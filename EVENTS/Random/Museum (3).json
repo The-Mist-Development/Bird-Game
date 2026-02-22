@@ -1,0 +1,65 @@
+{
+  "prerequisite flags": [ "ART GALLERY DESTROYED" ],
+  "opening": {
+    "contents": [
+      "Hi,",
+      "",
+      "I blame u for destroying the Art Gallery."
+    ],
+
+    "signoff": {
+      "regards": "f u,",
+      "signature": "Angry Human."
+    },
+
+    "option tags": {
+      "y": "ignore",
+      "n": "ignore"
+    }
+  },
+
+
+
+
+  "yes_route": {
+    "contents": [
+      "",
+      "",
+      "..."
+    ],
+
+
+
+    "results": {
+      "humans_relations": -1,
+      "squirrels_relation": 0,
+      "pigeon_loyalty": 0,
+      "cash": 0,
+      "new_flags": []
+    }
+
+  },
+
+
+
+
+
+  "no_route": {
+    "contents": [
+      "",
+      "",
+      "..."
+    ],
+
+
+    "results": {
+      "humans_relations": -10,
+      "squirrels_relation": 0,
+      "pigeon_loyalty": 0,
+      "cash": 0,
+      "new_flags": [],
+      "remove_flags": [ ]
+    }
+
+  }
+}

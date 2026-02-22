@@ -1,0 +1,65 @@
+{
+  "prerequisite flags": [ "PIGEONS GUARD ART GALLERY" ],
+  "opening": {
+    "contents": [
+      "Sire,",
+      "",
+      "Squirrels are attacking the Pigeons guarding the art gallery!"
+    ],
+
+    "signoff": {
+      "regards": "urgently,",
+      "signature": "Hooters Grey, Pigeon Advisor."
+    },
+
+    "option tags": {
+      "y": "send reinforcements",
+      "n": "withdraw"
+    }
+  },
+
+
+
+
+  "yes_route": {
+    "contents": [
+      "",
+      "",
+      "You fight of the squirrels, and successfully defend the art gallery."
+    ],
+
+
+
+    "results": {
+      "humans_relations": 10,
+      "squirrels_relation": -20,
+      "pigeon_loyalty": 0,
+      "cash": 0,
+      "new_flags": []
+    }
+
+  },
+
+
+
+
+
+  "no_route": {
+    "contents": [
+      "",
+      "",
+      "The Art gallery is destroyed, the humans are distraught."
+    ],
+
+
+    "results": {
+      "humans_relations": -20,
+      "squirrels_relation": 0,
+      "pigeon_loyalty": 0,
+      "cash": 0,
+      "new_flags": ["ART GALLERY DESTROYED"],
+      "remove_flags": [ "PIGEONS GUARD ART GALLERY" ]
+    }
+
+  }
+}

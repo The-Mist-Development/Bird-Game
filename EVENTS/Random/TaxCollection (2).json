@@ -1,0 +1,66 @@
+{
+  "prerequisite flags": [],
+  "opening": {
+    "contents": [
+      "Sire",
+      "",
+      "Your Pigeons are growing accustomed to a higher standard of living..."
+    ],
+
+    "signoff": {
+      "regards": "Yours Ad Infinitum,",
+      "signature": "Hooters Grey, Pigeon Advisor."
+    },
+
+    "option tags": {
+      "y": "Reap the benefits",
+      "n": "Tax them"
+    }
+  },
+
+
+
+
+  "yes_route": {
+    "contents": [
+      "",
+      "",
+      "Your people praise you as a great ruler!"
+    ],
+
+
+
+    "results": {
+      "humans_relations": 0,
+      "squirrels_relation": 0,
+      "pigeon_loyalty": 10,
+      "cash": 20,
+      "new_flags": [],
+      "remove_flags": []
+    }
+
+  },
+
+
+
+
+
+  "no_route": {
+    "contents": [
+      "",
+      "A Tax will surely teach them to live more humbly!",
+      ""
+    ],
+
+
+    "results": {
+      "humans_relations": 0,
+      "squirrels_relation": 0,
+      "pigeon_loyalty": -20,
+      "cash": 40,
+      "new_flags": [ "HEAVY TAX" ],
+      "remove_flags": []
+    }
+
+  }
+}
