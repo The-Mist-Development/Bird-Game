@@ -102,19 +102,19 @@ def pigeonLowEnding(bg):
     do_event("EVENTS/Special/PigeonDeath",bg) 
 
 def cashLowEnding(bg):
-    pass
+    do_event("EVENTS/Special/CashDeath",bg)
 
 def HumanHighEnding(bg):
-    do_event("EVENTS/Special/HumanDeath",bg) 
+    do_event("EVENTS/Special/HumanOverflow",bg) 
 
 def squirrelHighEnding(bg):
-    do_event("EVENTS/Special/SquirrelDeath",bg) 
+    do_event("EVENTS/Special/SquirrelOverflow",bg) 
 
 def pigeonHighEnding(bg):
-    do_event("EVENTS/Special/PigeonDeath",bg) 
+    do_event("EVENTS/Special/PigeonOverflow",bg) 
 
 def cashHighEnding(bg):
-    pass
+    do_event("EVENTS/Special/CashOverflow",bg)
 
 
 def EndConditions(bg):
