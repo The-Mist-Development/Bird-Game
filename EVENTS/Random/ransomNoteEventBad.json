@@ -1,0 +1,66 @@
+{
+  "prerequisite flags": [],
+  "opening": {
+    "contents": [
+      "King",
+      "",
+      "...",
+      "...",
+      "I have kidnapped the pigeon secretary general, I demand immediate payment of 50,000 GBP",
+      "or he will coo his last coo.",
+      "",
+      "",
+      "here's my bank details:",
+      "",
+      "Account Number: 38364089",
+      "Sort Code: 43-75-09"
+    ],
+
+    "signoff": {
+      "regards": "",
+      "signature": "Anonymous."
+    },
+
+    "option tags": {
+      "y": "send the money",
+      "n": "refuse to send the money"
+    }
+  },
+
+
+  "yes_route": {
+    "contents": [
+      "",
+      "",
+      "You wire the money.",
+      "The pigeon secretary general is later found alive trapped in a feeder pillar box.",
+      "The people, especially the pigeons, are glad you saved him."
+    ],
+    "results": {
+      "humans_relations": 5,
+      "squirrels_relation":  5,
+      "pigeon_loyalty":  10,
+      "cash":  -25,
+      "new_flags": []
+    }
+
+  },
+
+  "no_route": {
+    "contents": [
+      "",
+      "",
+      "You refuse.",
+      "The pigeon secretary general is later found dead in a feeder pillar box.",
+      "The people are shocked you would allow this."
+    ],
+    "results": {
+      "humans_relations": -10,
+      "squirrels_relation":  -10,
+      "pigeon_loyalty": -20,
+      "cash":  0,
+      "new_flags": []
+    }
+
+  }
+}

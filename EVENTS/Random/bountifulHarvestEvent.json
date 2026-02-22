@@ -1,0 +1,66 @@
+{
+  "prerequisite flags": [],
+  "opening": {
+    "contents": [
+      "Miraculous News!",
+      "",
+      "The harvest has been bountiful this day!",
+      "Thanks be to you, the King!, let us all reap the rewards of our labours.",
+      "Blessings upon blessings upon blessings! Hallelujah!"
+    ],
+
+    "signoff": {
+      "regards": "Gratefully,",
+      "signature": "Everyone."
+    },
+
+    "option tags": {
+      "y": "accept the bountiful harvest?",
+      "n": "accept the bountiful harvest?"
+    }
+  },
+
+
+
+
+  "yes_route": {
+    "contents": [
+      "",
+      "",
+      "Happiness and wealth for all."
+    ],
+
+
+
+    "results": {
+      "humans_relations": 15,
+      "squirrels_relation": 15,
+      "pigeon_loyalty": 15,
+      "cash": 30,
+      "new_flags": []
+    }
+
+  },
+
+
+
+
+
+  "no_route": {
+    "contents": [
+      "",
+      "",
+      "Happiness and wealth for all."
+    ],
+
+
+    "results": {
+      "humans_relations": 15,
+      "squirrels_relation":  15,
+      "pigeon_loyalty": 15,
+      "cash": 30,
+      "new_flags": []
+    }
+
+  }
+}

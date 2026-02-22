@@ -2,8 +2,8 @@
   "prerequisite flags": [],
   "opening": {
     "contents": [
-      "Your pigeon bretheren decide you are a bad king, they poison you with bad bread crumbs...",
-      "",
+      "Your become bankrupt, the kelvingrove falls into a state of disrepair, and you",
+      "eventually starve to death...",
       "",
       "The Game is OVER"
     ],
@@ -24,6 +24,7 @@
 
   "yes_route": {
     "contents": [
+      "",
       "",
       "Lord Kelvin: Lets go back to the Start... "
     ],

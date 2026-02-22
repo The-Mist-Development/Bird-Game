@@ -1,0 +1,75 @@
+{
+  "prerequisite flags": [],
+  "opening": {
+    "contents": [
+      "Enjoy 50% off your next order",
+      "",
+      "Rain or shine, enjoy 50% off your next order*",
+      "",
+      "We can't help with the forecast, but we can help with dinner.",
+      "Order in with 50% off your next order*",
+      "",
+      "*30% off (save up to £12) when you spend £15 or more on menu items",
+      "(excluding fees and the value of promotional items) available until 27 Feb 2026 1:00AM.",
+      "Valid on 5 orders from selected restaurants made via the Uber Eats app in the UK",
+      "(check the Uber Eats app for availability of deliveries and restaurants).",
+      "Offer is not valid on any basket that includes alcohol or tobacco products.",
+      "Offer only applies to orders for delivery and excludes orders for pick-up and dine-in.",
+      "Delivery fee and service fee apply."
+    ],
+
+    "signoff": {
+      "regards": "Unsubscribe",
+      "signature": "Uber Eats UK Limited."
+    },
+
+    "option tags": {
+      "y": "buy takeout tonight",
+      "n": "ignore"
+    }
+  },
+
+
+
+
+  "yes_route": {
+    "contents": [
+      "",
+      "",
+      "You order in a pizza. It's expensive."
+    ],
+
+
+
+    "results": {
+      "humans_relations": 0,
+      "squirrels_relation": 0,
+      "pigeon_loyalty": 0,
+      "cash": -5,
+      "new_flags": ["uberEats"]
+    }
+
+  },
+
+
+
+
+
+  "no_route": {
+    "contents": [
+      "",
+      "",
+      "You delete the email"
+    ],
+
+
+    "results": {
+      "humans_relations": 0,
+      "squirrels_relation":  0,
+      "pigeon_loyalty": 0,
+      "cash": 0,
+      "new_flags": []
+    }
+
+  }
+}

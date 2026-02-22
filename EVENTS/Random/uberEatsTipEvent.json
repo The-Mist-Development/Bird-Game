@@ -1,0 +1,66 @@
+{
+  "prerequisite flags": ["uberEats"],
+  "opening": {
+    "contents": [
+      "Hey, it's your uber eats driver",
+      "",
+      "Just wondering if you'd like to give me a tip."
+    ],
+
+    "signoff": {
+      "regards": "Thanks in advance,",
+      "signature": "Carla, Human"
+    },
+
+    "option tags": {
+      "y": "tip your driver",
+      "n": "refrain from tipping"
+    }
+  },
+
+
+
+
+  "yes_route": {
+    "contents": [
+      "",
+      "",
+      "You tip the driver, that was nice."
+    ],
+
+
+
+    "results": {
+      "humans_relations": 5,
+      "squirrels_relation": 0,
+      "pigeon_loyalty": 0,
+      "cash": -5,
+      "new_flags": [],
+      "remove_flags": ["uberEats"]
+    }
+
+  },
+
+
+
+
+
+  "no_route": {
+    "contents": [
+      "",
+      "",
+      "You don't tip, carla is miffed, probably."
+    ],
+
+
+    "results": {
+      "humans_relations": -5,
+      "squirrels_relation":  0,
+      "pigeon_loyalty": 0,
+      "cash": 0,
+      "new_flags": [],
+      "remove_flags": ["uberEats"]
+    }
+
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "prerequisite flags": [],
+  "opening": {
+    "contents": [
+      "Sire,",
+      "",
+      "The humans are demanding you put out a statement regarding the recent increase in pigeon",
+      "dropping related incidents. What is your response?"
+    ],
+
+    "signoff": {
+      "regards": "Yours Ad Infinitum,",
+      "signature": "Hooters Grey, Pigeon Advisor."
+    },
+
+    "option tags": {
+      "y": "say you are sorry about the uptick, and you are working to figure out the cause",
+      "n": "say you don't care and think the humans are silly and this is just a blip"
+    }
+  },
+
+
+
+
+  "yes_route": {
+    "contents": [
+      "",
+      "",
+      "You apologise on behalf of the pigeons, the humans are satisfied but the pigeons are disappointed",
+      "you would betray them."
+    ],
+
+
+
+    "results": {
+      "humans_relations": 10,
+      "squirrels_relation": 0,
+      "pigeon_loyalty": -5,
+      "cash": 0,
+      "new_flags": []
+    }
+
+  },
+
+
+
+
+
+  "no_route": {
+    "contents": [
+      "",
+      "",
+      "You say you don't care, the humans are upset, but the pigeons are glad you defended them."
+    ],
+
+
+    "results": {
+      "humans_relations": -10,
+      "squirrels_relation":  0,
+      "pigeon_loyalty": 5,
+      "cash": 0,
+      "new_flags": []
+    }
+
+  }
+}

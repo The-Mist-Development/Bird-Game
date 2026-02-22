@@ -1,0 +1,66 @@
+{
+  "prerequisite flags": [],
+  "opening": {
+    "contents": [
+      "Dear King,",
+      "",
+      "Hi, the humans were just wondering if we could have the funds and permission to construct",
+      "a gazebo in the middle of the park? It would really make the place prettier and nicer to",
+      "be in."
+    ],
+
+    "signoff": {
+      "regards": "Best,",
+      "signature": "Karl-Anthony Towns, Human"
+    },
+
+    "option tags": {
+      "y": "give the humans money and permission",
+      "n": "deny their request"
+    }
+  },
+
+
+
+
+  "yes_route": {
+    "contents": [
+      "",
+      "",
+      "You give the humans the funds, they are pleased and construct a pretty looking gazebo."
+    ],
+
+
+
+    "results": {
+      "humans_relations": 15,
+      "squirrels_relation": 0,
+      "pigeon_loyalty": 0,
+      "cash": -10,
+      "new_flags": []
+    }
+
+  },
+
+
+
+
+
+  "no_route": {
+    "contents": [
+      "",
+      "",
+      "You deny their request, they are miffed but not too upset."
+    ],
+
+
+    "results": {
+      "humans_relations": -5,
+      "squirrels_relation":  0,
+      "pigeon_loyalty": 0,
+      "cash": 0,
+      "new_flags": []
+    }
+
+  }
+}

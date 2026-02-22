@@ -1,0 +1,67 @@
+{
+  "prerequisite flags": [],
+  "opening": {
+    "contents": [
+      "Dear King,",
+      "",
+      "Recently, lots of RABID squirrels have INVADED from the east and are trying to ATTACK peaceful,",
+      "innocent pigeons. You surely understand, as a pigeon.",
+      "Please send in the winged military to STOP them AT ONCE."
+    ],
+
+    "signoff": {
+      "regards": "Yours,",
+      "signature": "A concerned pigeon."
+    },
+
+    "option tags": {
+      "y": "send the pigeon military to stop supposed squirrel attacks",
+      "n": "ignore the pigeon's request"
+    }
+  },
+
+
+
+
+  "yes_route": {
+    "contents": [
+      "",
+      "",
+      "You send in the military and they remove some squirrels.",
+      "The squirrels are greatly disturbed by this unwarranted use of state violence, as are many pigeons..."
+    ],
+
+
+
+    "results": {
+      "humans_relations": 0,
+      "squirrels_relation": -25,
+      "pigeon_loyalty": -5,
+      "cash": -5,
+      "new_flags": []
+    }
+
+  },
+
+
+
+
+
+  "no_route": {
+    "contents": [
+      "",
+      "",
+      "The squirrels are pleased you are not provoked by the claims made by a single pigeon, as are many pigeons."
+    ],
+
+
+    "results": {
+      "humans_relations": 0,
+      "squirrels_relation":  15,
+      "pigeon_loyalty": 10,
+      "cash": 0,
+      "new_flags": []
+    }
+
+  }
+}

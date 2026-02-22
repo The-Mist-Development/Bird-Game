@@ -1,0 +1,65 @@
+{
+  "prerequisite flags": [],
+  "opening": {
+    "contents": [
+      "Sire,",
+      "",
+      "Terrible news sadly, the rain has been so heavy the River Kelvin has overflowed and damaged infrastructure",
+      "for the humans, squirrels and pigeons alike. It will cost some money to repair"
+    ],
+
+    "signoff": {
+      "regards": "Regretfully,",
+      "signature": "Hooters Grey, Pigeon Advisor."
+    },
+
+    "option tags": {
+      "y": "begin reconstruction",
+      "n": "begin reconstruction"
+    }
+  },
+
+
+
+
+  "yes_route": {
+    "contents": [
+      "",
+      "",
+      "The people are unhappy but the damage is mitigated."
+    ],
+
+
+
+    "results": {
+      "humans_relations": -20,
+      "squirrels_relation": -20,
+      "pigeon_loyalty": -20,
+      "cash": -10,
+      "new_flags": []
+    }
+
+  },
+
+
+
+
+
+  "no_route": {
+    "contents": [
+      "",
+      "",
+      "The people are unhappy but the damage is mitigated."
+    ],
+
+
+    "results": {
+      "humans_relations": -20,
+      "squirrels_relation":  -20,
+      "pigeon_loyalty": -20,
+      "cash": -10,
+      "new_flags": []
+    }
+
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "prerequisite flags": [],
+  "opening": {
+    "contents": [
+      "KING HELP",
+      "",
+      "A HUGE FIRE HAS STARTED IN THE EAST SIDE OF KELVINGROVE PARK,",
+      "THE LOCAL SQUIRREL FORCES ARE NOT ENOUGH TO STOP IT, PLEASE SEND HUMANS!!!"
+    ],
+
+    "signoff": {
+      "regards": "QUICKLY,",
+      "signature": "Chip, Squirrel."
+    },
+
+    "option tags": {
+      "y": "send some humans to help stop the fire",
+      "n": "refuse to send any humans"
+    }
+  },
+
+
+
+
+  "yes_route": {
+    "contents": [
+      "",
+      "",
+      "You send a team of human firefighters to the east,",
+      "They succeed in putting out the fire, but some are severely wounded."
+    ],
+
+
+
+    "results": {
+      "humans_relations": -5,
+      "squirrels_relation": 15,
+      "pigeon_loyalty": 0,
+      "cash": -5,
+      "new_flags": []
+    }
+
+  },
+
+
+
+
+
+  "no_route": {
+    "contents": [
+      "",
+      "",
+      "You refuse to send any humans, the fire rages on but eventually peters out,",
+      "some squirrels do get seriously burned however."
+    ],
+
+
+    "results": {
+      "humans_relations": 0,
+      "squirrels_relation":  -15,
+      "pigeon_loyalty": 0,
+      "cash": 0,
+      "new_flags": []
+    }
+
+  }
+}

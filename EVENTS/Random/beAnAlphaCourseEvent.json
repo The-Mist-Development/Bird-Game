@@ -1,0 +1,72 @@
+{
+  "prerequisite flags": [],
+  "opening": {
+    "contents": [
+      "ALPHA MALE BOOTCAMP,",
+      "",
+      "Do you wish you were POWERFUL and STRONG!?",
+      "That could all change TODAY!!!!!",
+      "",
+      "Become a HIGH-VALUE, CONFIDENT, and UNSTOPPABLE alpha male with our 30-day transformation program.",
+      "This course teaches you how to MASTER your mindset, build unwavering self-esteem, improve your physique,",
+      "and attract success in relationships and finance. Learn to COMMAND RESPECT, ELIMINATE insecurities,",
+      "and DOMINATE your personal and professional life.",
+      "",
+      "BUY NOW for £20,000."
+    ],
+
+    "signoff": {
+      "regards": "Talk Soon",
+      "signature": "The ALPHA Team."
+    },
+
+    "option tags": {
+      "y": "buy the course",
+      "n": "ignore"
+    }
+  },
+
+
+
+
+  "yes_route": {
+    "contents": [
+      "",
+      "",
+      "Why did you do that?"
+    ],
+
+
+
+    "results": {
+      "humans_relations": 0,
+      "squirrels_relation": 0,
+      "pigeon_loyalty": 0,
+      "cash": -20,
+      "new_flags": []
+    }
+
+  },
+
+
+
+
+
+  "no_route": {
+    "contents": [
+      "",
+      "",
+      "Smart decision."
+    ],
+
+
+    "results": {
+      "humans_relations": 0,
+      "squirrels_relation":  0,
+      "pigeon_loyalty": 0,
+      "cash": 0,
+      "new_flags": []
+    }
+
+  }
+}

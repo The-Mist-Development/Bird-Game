@@ -1,0 +1,67 @@
+{
+  "prerequisite flags": [],
+  "opening": {
+    "contents": [
+      "To The Pigeon King,",
+      "",
+      "From a fellow pigeon, the humans have started flying drones around the park, dropping nuts from the sky",
+      "I think to feed the squirrels?",
+      "Anyways, it's a huge flight risk and many of my bretheren have been hit or nearly hit by errant drones.",
+      "Could you please pass a law that disallows the use of these drones?"
+    ],
+
+    "signoff": {
+      "regards": "Best,",
+      "signature": "Cher Ami, Pigeon."
+    },
+
+    "option tags": {
+      "y": "pass a law banning nut drones",
+      "n": "do nothing about the drones"
+    }
+  },
+
+
+
+
+  "yes_route": {
+    "contents": [
+      "",
+      "",
+      "You pass a prohibitive law on the nut drones, there is a decrease in pigeon injuries."
+    ],
+
+
+
+    "results": {
+      "humans_relations": -20,
+      "squirrels_relation": -15,
+      "pigeon_loyalty": 15,
+      "cash": 0,
+      "new_flags": []
+    }
+
+  },
+
+
+
+
+
+  "no_route": {
+    "contents": [
+      "",
+      "",
+      "You do nothing"
+    ],
+
+
+    "results": {
+      "humans_relations": 15,
+      "squirrels_relation":  15,
+      "pigeon_loyalty": -20,
+      "cash": 0,
+      "new_flags": []
+    }
+
+  }
+}

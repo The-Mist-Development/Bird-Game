@@ -1,0 +1,68 @@
+{
+  "prerequisite flags": [],
+  "opening": {
+    "contents": [
+      "Our King,",
+      "",
+      "We hate to have to bring this to you, but the humans have set up a horrible fair with rides",
+      "up in the park, it is so busy and loud and is disturbing all the pigeons and squirrels.",
+      "",
+      "Could you please tell the humans to get rid of it?"
+    ],
+
+    "signoff": {
+      "regards": "Thanks,",
+      "signature": "The Pigeons and Squirrels."
+    },
+
+    "option tags": {
+      "y": "tell the humans to take down the fair",
+      "n": "let the humans keep the fair up"
+    }
+  },
+
+
+
+
+  "yes_route": {
+    "contents": [
+      "",
+      "",
+      "The humans take down the fairground as per your request, but they are not pleased."
+    ],
+
+
+
+    "results": {
+      "humans_relations": -15,
+      "squirrels_relation": 20,
+      "pigeon_loyalty": 20,
+      "cash": 0,
+      "new_flags": []
+    }
+
+  },
+
+
+
+
+
+  "no_route": {
+    "contents": [
+      "",
+      "",
+      "The squirrels and pigeons are annoyed you didn't listen to them, but you do make",
+      "some money from the fair fees."
+    ],
+
+
+    "results": {
+      "humans_relations": 15,
+      "squirrels_relation":  -15,
+      "pigeon_loyalty": -15,
+      "cash": 10,
+      "new_flags": []
+    }
+
+  }
+}

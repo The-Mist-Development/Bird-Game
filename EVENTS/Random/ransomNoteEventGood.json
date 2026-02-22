@@ -1,0 +1,65 @@
+{
+  "prerequisite flags": [],
+  "opening": {
+    "contents": [
+      "King",
+      "",
+      "...",
+      "...",
+      "I have kidnapped the pigeon secretary general, I demand immediate payment of 50,000 GBP",
+      "or he will coo his last coo.",
+      "",
+      "",
+      "here's my bank details:",
+      "",
+      "Account Number: 38264089",
+      "Sort Code: 43-75-09"
+    ],
+
+    "signoff": {
+      "regards": "",
+      "signature": "Anonymous."
+    },
+
+    "option tags": {
+      "y": "send the money",
+      "n": "refuse to send the money"
+    }
+  },
+
+
+  "yes_route": {
+    "contents": [
+      "",
+      "",
+      "You wire the money.",
+      "Shortly after, you discover the pigeon secretary general is simply on holiday in Bali."
+    ],
+    "results": {
+      "humans_relations": 0,
+      "squirrels_relation":  0,
+      "pigeon_loyalty":  5,
+      "cash":  -25,
+      "new_flags": []
+    }
+
+  },
+
+  "no_route": {
+    "contents": [
+      "",
+      "",
+      "You refuse.",
+      "Shortly after, you discover the pigeon secretary general is simply on holiday in Bali.",
+      "The people admire your wisdom."
+    ],
+    "results": {
+      "humans_relations": 5,
+      "squirrels_relation":  5,
+      "pigeon_loyalty": 10,
+      "cash":  0,
+      "new_flags": []
+    }
+
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "prerequisite flags": [],
+  "opening": {
+    "contents": [
+      "Your Excellence,",
+      "",
+      "We are writing to you today to make a formal request.",
+      "We the people think that more trees are needed in this park,",
+      "would you please consider planting some more? The earth would thank you."
+    ],
+
+    "signoff": {
+      "regards": "We Hope you Consider This,",
+      "signature": "Human-Squirrel-Pigeon Eco Coalition."
+    },
+
+    "option tags": {
+      "y": "plant more trees",
+      "n": "refuse to plant more"
+    }
+  },
+
+
+  "yes_route": {
+    "contents": [
+      "",
+      "",
+      "You order the royal gardeners to plant some more trees, but it does cost you."
+    ],
+    "results": {
+      "humans_relations": 10,
+      "squirrels_relation":  10,
+      "pigeon_loyalty":  10,
+      "cash":  -15,
+      "new_flags": []
+    }
+
+  },
+
+  "no_route": {
+    "contents": [
+      "",
+      "",
+      "You deny their request, the people are displeased."
+    ],
+    "results": {
+      "humans_relations": -5,
+      "squirrels_relation":  -5,
+      "pigeon_loyalty": -5,
+      "cash":  10,
+      "new_flags": []
+    }
+
+  }
+}

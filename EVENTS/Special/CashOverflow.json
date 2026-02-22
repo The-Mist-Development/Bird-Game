@@ -2,8 +2,8 @@
   "prerequisite flags": [],
   "opening": {
     "contents": [
-      "Your pigeon bretheren decide you are a bad king, they poison you with bad bread crumbs...",
-      "",
+      "Your kingdom grows so wealthy you draw the eye of nearby parks, you are invaded, your",
+      "treasure is looted and you are killed...",
       "",
       "The Game is OVER"
     ],
@@ -24,6 +24,7 @@
 
   "yes_route": {
     "contents": [
+      "",
       "",
       "Lord Kelvin: Lets go back to the Start... "
     ],

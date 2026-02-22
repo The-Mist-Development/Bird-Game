@@ -49,6 +49,10 @@ def do_event(eventName,bg):
     for flag in event[route]["results"]["new_flags"]:
         bg.flags.add(flag)
 
+    if "remove_flags" in event[route]["results"]:
+        for flag in event[route]["results"]["remove_flags"]:
+            bg.flags.remove(flag)
+
     bg.humans_relations += event[route]["results"]["humans_relations"]
     bg.squirrels_relation += event[route]["results"]["squirrels_relation"]
     bg.pigeon_loyalty += event[route]["results"]["pigeon_loyalty"]
@@ -88,19 +92,45 @@ def do_random_event(bg):
             do_event(e.path.split(".")[0],bg)
             break;
 
-def HumanEnding(bg):
+def HumanLowEnding(bg):
     do_event("EVENTS/Special/HumanDeath",bg) 
 
-def squirelEnding(bg):
+def squirrelLowEnding(bg):
     do_event("EVENTS/Special/SquirrelDeath",bg) 
 
-def pigeonEnding(bg):
+def pigeonLowEnding(bg):
     do_event("EVENTS/Special/PigeonDeath",bg) 
+
+def cashLowEnding(bg):
+    pass
+
+def HumanHighEnding(bg):
+    do_event("EVENTS/Special/HumanDeath",bg) 
+
+def squirrelHighEnding(bg):
+    do_event("EVENTS/Special/SquirrelDeath",bg) 
+
+def pigeonHighEnding(bg):
+    do_event("EVENTS/Special/PigeonDeath",bg) 
+
+def cashHighEnding(bg):
+    pass
+
 
 def EndConditions(bg):
     if bg.humans_relations < 0:
-        HumanEnding(bg)
+        HumanLowEnding(bg)
     elif bg.squirrels_relation < 0:
-        squirelEnding(bg)
+        squirrelLowEnding(bg)
     elif bg.pigeon_loyalty < 0:
-        pigeonEnding(bg)
+        pigeonLowEnding(bg)
+    elif bg.cash < 0:
+        cashLowEnding(bg)
+    elif bg.humans_relations > 100:
+        HumanHighEnding(bg)
+    elif bg.squirrels_relation > 100:
+        squirrelHighEnding(bg)
+    elif bg.pigeon_loyalty > 100:
+        pigeonHighEnding(bg)
+    elif bg.cash > 100:
+        cashHighEnding(bg)

@@ -1,0 +1,67 @@
+{
+  "prerequisite flags": [],
+  "opening": {
+    "contents": [
+      "Sire",
+      "",
+      "Sire, in your great benevolence, would you perhaps maybe consider giving your humble servants and I",
+      "a raise?... Only if you deem us worthy of course...",
+      "",
+      "please."
+    ],
+
+    "signoff": {
+      "regards": "Yours In Humble Adoration",
+      "signature": "Hooters Grey, Pigeon Advisor"
+    },
+
+    "option tags": {
+      "y": "give them a raise",
+      "n": "don't give them a raise"
+    }
+  },
+
+
+
+
+  "yes_route": {
+    "contents": [
+      "",
+      "",
+      "You give your pigeon servants a raise, they are happy."
+    ],
+
+
+
+    "results": {
+      "humans_relations": 0,
+      "squirrels_relation": 0,
+      "pigeon_loyalty": 15,
+      "cash": -20,
+      "new_flags": []
+    }
+
+  },
+
+
+
+
+
+  "no_route": {
+    "contents": [
+      "",
+      "",
+      "You deny their wishes for a raise, they begrudgingly accept this reality."
+    ],
+
+
+    "results": {
+      "humans_relations": 0,
+      "squirrels_relation":  0,
+      "pigeon_loyalty": -10,
+      "cash": 0,
+      "new_flags": []
+    }
+
+  }
+}

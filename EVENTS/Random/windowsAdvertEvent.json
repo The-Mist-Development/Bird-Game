@@ -1,0 +1,74 @@
+{
+  "prerequisite flags": [],
+  "opening": {
+    "contents": [
+      "Microsoft Rewards",
+      "",
+      "A free Surface Pro? It could be yours",
+      "",
+      "Enter for a change to win",
+      "",
+      "Microsoft Surface Pro",
+      "Get it now",
+      "",
+      "Sleek, powerful, and effortlessly versatile. Switch from tablet to laptop in a snap.",
+      "Bigger display, Windows 11 magic, all in one stunning package.",
+      "",
+      "ENTER TODAY"
+    ],
+
+    "signoff": {
+      "regards": "This email was sent from an unmonitored inbox",
+      "signature": "DONOTREPLY"
+    },
+
+    "option tags": {
+      "y": "ignore",
+      "n": "ignore"
+    }
+  },
+
+
+
+
+  "yes_route": {
+    "contents": [
+      "",
+      "",
+      "You delete the email"
+    ],
+
+
+
+    "results": {
+      "humans_relations": 0,
+      "squirrels_relation": 0,
+      "pigeon_loyalty": 0,
+      "cash": 0,
+      "new_flags": []
+    }
+
+  },
+
+
+
+
+
+  "no_route": {
+    "contents": [
+      "",
+      "",
+      "You delete the email"
+    ],
+
+
+    "results": {
+      "humans_relations": 0,
+      "squirrels_relation":  0,
+      "pigeon_loyalty": 0,
+      "cash": 0,
+      "new_flags": []
+    }
+
+  }
+}

@@ -15,8 +15,8 @@
     },
 
     "option tags": {
-      "y": "Grant Permission",
-      "n": "Deny Permission"
+      "y": "grant Permission",
+      "n": "deny Permission"
     }
   },
 
