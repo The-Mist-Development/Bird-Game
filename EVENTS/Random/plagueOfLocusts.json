@@ -1,0 +1,65 @@
+{
+  "prerequisite flags": [],
+  "opening": {
+    "contents": [
+      "My Liege,",
+      "",
+      "A plague of locusts has swept across the lands and we've heard that's",
+      "meant to be bad, help us!"
+    ],
+
+    "signoff": {
+      "regards": "yours dearly,",
+      "signature": "Jonathan Urquhart Pfeffermeister, Human"
+    },
+
+    "option tags": {
+      "y": "Enlist your fellow pigeons to eat the locusts",
+      "n": "Use the opportunity to ransack the humans' brick-nests"
+    }
+  },
+
+
+
+
+  "yes_route": {
+    "contents": [
+      "",
+      "",
+      "You and your fellow pigeons feast for many nights, eradicating the locust swarm"
+    ],
+
+
+
+    "results": {
+      "humans_relations": 10,
+      "squirrels_relation": 0,
+      "pigeon_loyalty": 5,
+      "cash": 0,
+      "new_flags": []
+    }
+
+  },
+
+
+
+
+
+  "no_route": {
+    "contents": [
+      "",
+      "",
+      "You pillage the human settlements. The humans resent you"
+    ],
+
+
+    "results": {
+      "humans_relations": -10,
+      "squirrels_relation":  0,
+      "pigeon_loyalty": 0,
+      "cash": 15,
+      "new_flags": []
+    }
+
+  }
+}
